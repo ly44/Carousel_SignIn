@@ -18,6 +18,9 @@
 		E7B999871BE87BAE00DB18C3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999861BE87BAE00DB18C3 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E7B9998A1BE87E4000DB18C3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999891BE87E4000DB18C3 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E7B999921BEAE84800DB18C3 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999911BEAE84800DB18C3 /* welcomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B999941BEAF5E700DB18C3 /* timelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999931BEAF5E700DB18C3 /* timelineViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B999961BEAFAF400DB18C3 /* conversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999951BEAFAF400DB18C3 /* conversationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B999981BEAFC1800DB18C3 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999971BEAFC1800DB18C3 /* settingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		E7B999861BE87BAE00DB18C3 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		E7B999891BE87E4000DB18C3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E7B999911BEAE84800DB18C3 /* welcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		E7B999931BEAF5E700DB18C3 /* timelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timelineViewController.swift; sourceTree = "<group>"; };
+		E7B999951BEAFAF400DB18C3 /* conversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = conversationsViewController.swift; sourceTree = "<group>"; };
+		E7B999971BEAFC1800DB18C3 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +145,11 @@
 			isa = PBXGroup;
 			children = (
 				E7B999861BE87BAE00DB18C3 /* IntroViewController.swift */,
+				E7B999971BEAFC1800DB18C3 /* settingsViewController.swift */,
+				E7B999931BEAF5E700DB18C3 /* timelineViewController.swift */,
 				E7B999911BEAE84800DB18C3 /* welcomeViewController.swift */,
 				E7B999891BE87E4000DB18C3 /* LoginViewController.swift */,
+				E7B999951BEAFAF400DB18C3 /* conversationsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -277,7 +286,10 @@
 			files = (
 				E7B999591BE865A100DB18C3 /* ViewController.swift in Sources */,
 				E7B999851BE8666A00DB18C3 /* Common.swift in Sources */,
+				E7B999981BEAFC1800DB18C3 /* settingsViewController.swift in Sources */,
 				E7B999571BE865A100DB18C3 /* AppDelegate.swift in Sources */,
+				E7B999961BEAFAF400DB18C3 /* conversationsViewController.swift in Sources */,
+				E7B999941BEAF5E700DB18C3 /* timelineViewController.swift in Sources */,
 				E7B999921BEAE84800DB18C3 /* welcomeViewController.swift in Sources */,
 				E7B9998A1BE87E4000DB18C3 /* LoginViewController.swift in Sources */,
 				E7B999871BE87BAE00DB18C3 /* IntroViewController.swift in Sources */,
