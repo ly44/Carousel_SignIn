@@ -82,7 +82,7 @@
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Mb6-aD-71p">
-                                <rect key="frame" x="0.0" y="74" width="320" height="1062"/>
+                                <rect key="frame" x="0.0" y="74" width="320" height="381"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="Ltk-Lv-U15" userLabel="fieldParentView">
