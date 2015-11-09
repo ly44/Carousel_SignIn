@@ -82,6 +82,10 @@ class LoginViewController: UIViewController, UIScrollViewDelegate {
         }
     }
     
+    @IBAction func didTap(sender: AnyObject) {
+        view.endEditing(true)
+    }
+    
     // defining login button action
     @IBAction func didLogin(sender: AnyObject) {
         view.userInteractionEnabled = false

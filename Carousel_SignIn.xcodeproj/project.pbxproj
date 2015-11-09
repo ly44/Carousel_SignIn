@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74772DE1BED50E3007CEE78 /* createAcctViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74772DD1BED50E3007CEE78 /* createAcctViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E7B999571BE865A100DB18C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999561BE865A100DB18C3 /* AppDelegate.swift */; };
 		E7B999591BE865A100DB18C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B999581BE865A100DB18C3 /* ViewController.swift */; };
 		E7B9995C1BE865A100DB18C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B9995A1BE865A100DB18C3 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E74772DD1BED50E3007CEE78 /* createAcctViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createAcctViewController.swift; sourceTree = "<group>"; };
 		E7B999531BE865A000DB18C3 /* Carousel_SignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel_SignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B999561BE865A100DB18C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B999581BE865A100DB18C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				E7B999911BEAE84800DB18C3 /* welcomeViewController.swift */,
 				E7B999891BE87E4000DB18C3 /* LoginViewController.swift */,
 				E7B999951BEAFAF400DB18C3 /* conversationsViewController.swift */,
+				E74772DD1BED50E3007CEE78 /* createAcctViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B999591BE865A100DB18C3 /* ViewController.swift in Sources */,
+				E74772DE1BED50E3007CEE78 /* createAcctViewController.swift in Sources */,
 				E7B999851BE8666A00DB18C3 /* Common.swift in Sources */,
 				E7B999981BEAFC1800DB18C3 /* settingsViewController.swift in Sources */,
 				E7B999571BE865A100DB18C3 /* AppDelegate.swift in Sources */,
@@ -517,6 +521,7 @@
 				E7B9997D1BE865A100DB18C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7B9997E1BE865A100DB18C3 /* Build configuration list for PBXNativeTarget "Carousel_SignInTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				E7B999801BE865A100DB18C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7B999811BE865A100DB18C3 /* Build configuration list for PBXNativeTarget "Carousel_SignInUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				E7B999831BE865A100DB18C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

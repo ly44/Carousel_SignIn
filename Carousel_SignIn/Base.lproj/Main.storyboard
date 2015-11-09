@@ -63,6 +63,12 @@
                     <connections>
                         <outlet property="IntroImageView" destination="lJF-ZK-sxc" id="1Y3-ec-5NE"/>
                         <outlet property="IntroScrollView" destination="KoS-gv-Ggd" id="btA-FC-auW"/>
+                        <outlet property="tile1View" destination="N4R-mX-Zms" id="48R-hY-C2x"/>
+                        <outlet property="tile2View" destination="Qqe-CS-Naq" id="0W2-af-5Hc"/>
+                        <outlet property="tile3View" destination="I3H-si-WOW" id="0Ae-3W-5en"/>
+                        <outlet property="tile4View" destination="ulM-Ru-Iie" id="YUr-gJ-FcT"/>
+                        <outlet property="tile5View" destination="3LS-ez-X1t" id="a2o-gD-9gg"/>
+                        <outlet property="tile6View" destination="gUO-2Q-cZo" id="wEg-my-jS7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -132,7 +138,7 @@
                                                     <action selector="didLogin:" destination="Kc7-79-D7B" eventType="touchUpInside" id="WEi-dQ-Ync"/>
                                                 </connections>
                                             </button>
-                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="wq9-43-jU1" userLabel="SigninIndicator">
+                                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" id="wq9-43-jU1" userLabel="SigninIndicator">
                                                 <rect key="frame" x="198" y="21" width="20" height="20"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -153,6 +159,7 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" id="k7t-Eb-iDg"/>
                     <connections>
@@ -166,6 +173,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ELh-mu-Ti7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Vpa-db-z5S">
+                    <connections>
+                        <action selector="didTap:" destination="Kc7-79-D7B" id="C46-Ol-onT"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1024" y="-776"/>
         </scene>
